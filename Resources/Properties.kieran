@@ -1,0 +1,20 @@
+#########################################################################
+# Development Specific Properties
+#########################################################################
+## Development Properties for localhost at home
+## Put these ones in your own user Properties file - Properties.<user-name>
+## The following properties should be left enabled as "safe" for testing.
+log4j.rootLogger=WARN, A1
+# log4j.rootLogger=WARN, A1, myMail
+app.developmentMode=true
+app.setDevelopmentDefaults=false
+app.isSecurePagesEnabled=false
+app.smtpserver=smtp-server.tampabay.rr.com
+er.javamail.smtpHost=smtp-server.tampabay.rr.com
+application.isReadOnlyEntities=false
+
+
+#########################################################################
+# Development Logging
+#########################################################################
+log4j.logger.gic.stringtools.components.StringConstant = DEBUG
